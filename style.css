@@ -1,0 +1,150 @@
+
+#eu {
+    width: 130px;
+    height: 120px;
+    border-radius: 50%;
+    margin-top: 5%;
+    position: absolute;
+   
+    
+    
+}
+
+body{
+    background-color: rgb(43, 16, 70);
+}
+
+.orlando{
+    color: rgb(183, 162, 204);
+    text-align: center;
+}
+
+.lista {
+    color: rgb(43, 16, 70);
+    display: inline-block
+}
+
+.li {
+    display: inline-block;
+    margin-left: 12rem;
+    background-color: rgb(183, 162, 204);
+    padding: 5px;
+    font-size: 25px;
+    border-radius: 10%;
+    
+}
+
+li:hover{
+   background-color: rgb(67, 23, 110); 
+   color: rgb(183, 162, 204); 
+}
+
+#sobreMim{
+    margin-top: 8%;
+    max-width: 40%;
+    justify-content: center;
+    margin-left: 25%;
+    font-size: 20px;
+    color: rgb(183, 162, 204);   
+}
+#ling{
+    margin-top: 8%;
+    max-width: 40%;
+    justify-content: center;
+    margin-left: 25%;
+    font-size: 20px;
+    color: rgb(183, 162, 204); 
+    
+
+}
+
+#container{
+    width: 300px;
+    /* max-width: 100%; */
+    position: relative;
+    display: inline-block;
+
+    
+           
+}
+.logo{
+    width: 33%;
+    display: inline-block;
+    float: left;
+    
+}
+
+#contato{
+    margin-top: 8%;
+    font-size: 20px;
+    color: rgb(183, 162, 204); 
+    margin-left: 25%;
+
+   
+      
+}
+
+.redes{
+    margin-left: -30px;
+    position: static;
+   
+}
+
+
+
+
+  
+    
+    
+    
+    
+    
+
+
+li{
+    list-style: none;
+    margin-top: 20px;
+    display: inline-block;
+    margin-left: 60px;
+    margin: auto;
+    
+    
+}
+
+.links{
+    
+    text-decoration: none;
+    color: rgb(183, 162, 204); 
+    background-color: rgb(43, 16, 70);
+    padding: 10px;
+    border: 2px, solid, black;
+    
+    
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+ 
+    
+
+    
+    
+    
+   
+    
+    
+   
+   
+    
+    
+    
+    
+    
+}
