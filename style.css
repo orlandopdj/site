@@ -236,5 +236,37 @@ p {
 
 
             }
+            @media screen and (max-width: 320px) {              
+                li {
+                    font-size: 13px;
+                    display: inline;
+                    margin-left: 5px;
+                    margin-right: 5px;
+                    text-align: center;
+                    color: #f5933e;
+                    font-family: mont;
+    
+    
+                }
+    
+                #ling {
+                    margin-left: 5%;
+                }
+    
+                .rede {
+                    width: 40px;
+    
+                }
+                #contato{
+                    margin-left: 2px;
+                }
+                img {
+                    width: 50px;
+                    margin-left: 25px;
+                    border: 1px solid #ffdab9;
+    
+    
+                }
 
         }
+        
