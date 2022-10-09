@@ -205,7 +205,7 @@ p {
 
         }
 
-        @media screen and (max-width: 360px) {
+        @media screen and (max-width: 375px) {
             li {
                 font-size: 15px;
                 display: inline;
