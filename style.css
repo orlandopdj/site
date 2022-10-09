@@ -149,7 +149,7 @@ p {
             font-size: 18px;
             display: inline;
             margin-left: 2rem;
-            margin-right: 5rem;
+            margin-right: 4.5rem;
             text-align: center;
             color: #f5933e;
             font-family: mont;
@@ -157,20 +157,20 @@ p {
         }
     
         #ling {
-            margin-left: 33%;
+            margin-left: 28%;
         }
     
         #contato {
-            margin-left: 25%;
+            margin-left: 20%;
     
         }
 
         @media screen and (max-width: 720px) {
             li {
-                font-size: 16px;
+                font-size: 18px;
                 display: inline;
                 margin-left: 2rem;
-                margin-right: 3.6rem;
+                margin-right: 1rem;
                 text-align: center;
                 color: #f5933e;
                 font-family: mont;
@@ -178,11 +178,11 @@ p {
             }
         
             #ling {
-                margin-left: 22%;
+                margin-left: 20%;
             }
         
             #contato {
-                margin-left: 13%;
+                margin-left: 10%;
         
             }
 
