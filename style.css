@@ -98,8 +98,8 @@ p {
 }
 
 .rede:hover {
-    background-color: #101217;
-    filter: opacity(0.4) drop-shadow(0 0 0 black);
+    background-color: white;
+    filter: opacity(0.4) drop-shadow(0 0 0 #f5933e);
 }
 
 @media screen and (max-width: 1250px) {
@@ -277,7 +277,7 @@ p {
 
 
             }
-            @media screen and (max-width: 320px) {              
+            @media screen and (max-width: 300px) {              
                 li {
                     font-size: 13px;
                     display: inline;
