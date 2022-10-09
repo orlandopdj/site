@@ -136,13 +136,12 @@ p {
     }
 
 }
-
-@media screen and (max-width: 500px){
+@media screen and (max-width: 550px){
     li{
         font-size: 15px;
         display: inline;
-        margin-left: 6px;
-        margin-right: 38px;
+        margin-left: 8px;
+        margin-right: 25px;
         text-align: center;
         color: #f5933e;
         font-family: mont;
@@ -163,7 +162,35 @@ p {
     
     }
 
+@media screen and (max-width: 450px){
+    li{
+        font-size: 15px;
+        display: inline;
+        margin-left: 6px;
+        margin-right: 15px;
+        text-align: center;
+        color: #f5933e;
+        font-family: mont;
+
+       
+    }
+    #ling {
+        margin-left: 14%;
+    }
+    #contato{
+        margin-left: 5%;
+    }
+    img {
+        width: 70px;
+        margin-left: 25px;
+        border: 1px solid #ffdab9;
+    
+    
+    }
+
+
 }
+
 
 
 
