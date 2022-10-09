@@ -92,8 +92,8 @@ p {
 }
 
 .rede:hover{
-    background-color: #101217;
-    filter: opacity(0.4) drop-shadow(0 0 0 black);
+    background-color: white;
+    filter: opacity(0.4) drop-shadow(0 0 0 #f5933e;
 }
 
 @media screen and (max-width: 1250px){
@@ -187,6 +187,34 @@ p {
     
     
     }
+    @media screen and (max-width: 360px){
+        li{
+            font-size: 14px;
+            display: inline;
+            margin-left: 1px;
+            margin-right: 16px;
+            text-align: center;
+            color: #f5933e;
+            font-family: mont;
+    
+           
+        }
+        #ling {
+            margin-left: 3%;
+        }
+        .rede{
+            width: 50px;
+        }
+        #contato{
+            margin-left: 1%;
+        }
+        img {
+            width: 70px;
+            margin-left: 25px;
+            border: 1px solid #ffdab9;
+        
+        
+        }
 
 
 }
