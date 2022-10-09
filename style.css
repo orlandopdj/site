@@ -1,187 +1,172 @@
-
-#eu {
-    width: 130px;
-    height: 120px;
-    border-radius: 50%;
-    margin-top: 5%;
-    position: absolute;
-    border: 4px solid rgb(57, 40, 75);
-    
-   
-    
-    
+@font-face {
+    font-family: 'mont';
+    src: url('assets/Montserrat-Regular.ttf');
 }
-
-body{
-    background-color: rgb(43, 16, 70);
-}
-
-.orlando{
-    color: rgb(183, 162, 204);
-    text-align: center;
-}
-
-.lista {
-    color: rgb(43, 16, 70);
-    display: inline-block
-}
-
-.li {
-    display: inline-block;
-    margin-left: 12rem;
-    background-color: rgb(183, 162, 204);
-    padding: 5px;
-    font-size: 25px;
-    border-radius: 10%;
-    
-}
-
-li:hover{
-   background-color: rgb(67, 23, 110); 
-   color: rgb(183, 162, 204); 
-}
-
-#sobreMim{
-    margin-top: 8%;
-    max-width: 40%;
-    justify-content: center;
-    margin-left: 25%;
-    font-size: 20px;
-    color: rgb(183, 162, 204);   
-}
-#ling{
-    margin-top: 8%;
-    max-width: 40%;
-    justify-content: center;
-    margin-left: 25%;
-    font-size: 20px;
-    color: rgb(183, 162, 204); 
-    
-
-}
-
-#container{
-    width: 300px;
-    /* max-width: 100%; */
-    position: relative;
-    display: inline-block;
-
-    
-           
-}
-.logo{
-    width: 33%;
-    display: inline-block;
-    float: left;
-    
-}
-
-#contato{
-    margin-top: 8%;
-    font-size: 20px;
-    color: rgb(183, 162, 204); 
-    margin-left: 25%;
-
-   
-      
-}
-
-.redes{
-    margin-left: -30px;
-    position: static;
-   
-}
-
-
-    
-
-li{
-    list-style: none;
-    margin-top: 20px;
-    display: inline-block;
-    margin-left: 60px;
-    margin: auto;
-    
-    
-}
-
-.links{
-    
-    text-decoration: none;
-    color: rgb(183, 162, 204); 
-    background-color: rgb(43, 16, 70);
-    padding: 10px;
-    border: 2px, solid, black;
-    
-    
-    
-}
-
 html{
     scroll-behavior: smooth;
 }
+a{
+    text-decoration: none;
+}
+#eu {
+    border: 4px solid #f5933e;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 9rem;
+    height: 9rem;
+    border-radius: 50%;
 
-@media screen and (max-width: 1300px){
-    .lista{
-        margin-top: 20px;
-        float: none;
+}
+
+
+#header {
+    margin-top: 15px;
+    background-color: #232833;
+    padding: 5px;
+    
+
+}
+
+li:hover{
+    background-color: #f5933e;
+    color: #232833;
+}
+
+h1 {
+    color: #f5933e;
+    text-align: center;
+    font-family: mont;
+}
+h2 {
+    color: #f5933e;
+    text-align: center;
+    font-family: mont;
+}
+
+body {
+    background-color: #101217;
+}
+
+li {
+    font-size: 18px;
+    display: inline;
+    margin-left: 7rem;
+    margin-right: 8rem;
+    text-align: center;
+    color: #f5933e;
+    font-family: mont;
+}
+
+#ling {
+    margin-left: 36%;
+}
+
+img {
+    width: 80px;
+    margin-left: 25px;
+    border: 1px solid #ffdab9;
+
+
+}
+
+p {
+    color: #ffdab9;
+    text-align: center;
+    font-family: mont;
+    font-size: 1.3rem;
+}
+#bord{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    border: solid 1px #f5933e;
+}
+#contato{
+    margin-left: 32%;
+
+}
+
+
+.rede{
+    filter: opacity(0.5) drop-shadow(0 0 0 #f5933e);
+}
+
+.rede:hover{
+    background-color: #101217;
+    filter: opacity(0.4) drop-shadow(0 0 0 black);
+}
+
+@media screen and (max-width: 1250px){
+    li{
+        font-size: 18px;
+        display: inline;
+        margin-left: 5rem;
+        margin-right: 5rem;
         text-align: center;
-        
-   
-        
+        color: #f5933e;
+        font-family: mont;
+    }
+    #ling {
+        margin-left: 33%;
+    }
+    #contato{
+        margin-left: 25%;
+    
     }
 
+}
+
+@media screen and (max-width: 950px){
     li{
-        margin-bottom: 30px;
-        float: none;
-        margin-right: 300px;
+        font-size: 18px;
+        display: inline;
+        margin-left: 2rem;
+        margin-right: 5rem;
+        text-align: center;
+        color: #f5933e;
+        font-family: mont;
        
     }
-
-    h1{
-        text-align: center;
-        float: none;
+    #ling {
+        margin-left: 33%;
+    }
+    #contato{
+        margin-left: 25%;
+    
     }
 
-    .menu{
-        margin-top: 5px;
-        margin-right: 25%;
-        margin: auto;
-        justify-content: center;
-        
-
-    }
-
-    #eu{
-        margin-top: 25%;
-    }
-
-    #sobreMim{
-        /* text-align: center; */
-        margin-right: 25%;
-    }
-
-    
-        
-
-
-
-
-
- 
-    
-
-    
-    
-    
-   
-    
-    
-   
-   
-    
-    
-    
-    
-    
 }
+
+@media screen and (max-width: 500px){
+    li{
+        font-size: 15px;
+        display: inline;
+        margin-left: 6px;
+        margin-right: 38px;
+        text-align: center;
+        color: #f5933e;
+        font-family: mont;
+
+       
+    }
+    #ling {
+        margin-left: 14%;
+    }
+    #contato{
+        margin-left: 5%;
+    }
+    img {
+        width: 70px;
+        margin-left: 25px;
+        border: 1px solid #ffdab9;
+    
+    
+    }
+
+}
+
+
+
+    
+
+
