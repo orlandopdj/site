@@ -144,6 +144,47 @@ p {
         margin-left: 25%;
 
     }
+    @media screen and (max-width: 950px) {
+        li {
+            font-size: 18px;
+            display: inline;
+            margin-left: 2rem;
+            margin-right: 5rem;
+            text-align: center;
+            color: #f5933e;
+            font-family: mont;
+    
+        }
+    
+        #ling {
+            margin-left: 33%;
+        }
+    
+        #contato {
+            margin-left: 25%;
+    
+        }
+
+        @media screen and (max-width: 720px) {
+            li {
+                font-size: 16px;
+                display: inline;
+                margin-left: 2rem;
+                margin-right: 3.6rem;
+                text-align: center;
+                color: #f5933e;
+                font-family: mont;
+        
+            }
+        
+            #ling {
+                margin-left: 22%;
+            }
+        
+            #contato {
+                margin-left: 13%;
+        
+            }
 
 }
 
